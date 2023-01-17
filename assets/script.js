@@ -11,7 +11,7 @@ const searchButton = document.querySelector("#search-butn");
 // add event listener for when user enters city name and clicks on search button
 document.getElementById("search-butn").addEventListener("click", getCityAPI);
 
-
+localStorage.setItem(city);
 
 //gets current weather and long and lat coordinates for city
 function getCityAPI() {
@@ -58,13 +58,11 @@ function getWeather(lat,lon){
       .then(function (data) {
         console.log(data)
         console.log(forecastURL);
+        console.log()
 
 
         showForecast(data)
 })
-
-
-
 
 }
 
@@ -80,6 +78,8 @@ function showForecast(data){
 }
 }
 
-//get only 1 instance of each data for 12:00:00 to use with forecast array
+//need to get only 1 instance of each data for 12:00:00 to use with forecast array
+// dt_txt 
+//"2023-01-17 12:00:00"
 
 //save search to local storage
