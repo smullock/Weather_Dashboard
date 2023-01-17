@@ -2,7 +2,13 @@
 
 ## Description
 This challenge is to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.
-The dashboard needs to Use the 5 Day Weather Forecast to retrieve weather data for cities. 
+The dashboard needs to Use the 5 Day Weather Forecast to retrieve weather data for cities.
+
+NB: The Open weather API used returned error
+Mixed Content: The page at 'https://smullock.github.io/Weather_Dashboard/' was loaded over HTTPS, but requested an insecure resource 'http://api.openweathermap.org/data/2.5/forecast?lat=-33.8679&lon=151.2073&units=metric&appid=4d653892b2e11424f6c1a302d548c236'. This request has been blocked; the content must be served over HTTPS.
+
+This is an issue with Chrome but it will work in Miscrosoft Edge browser.
+
 ### User Story
 ```
 AS A traveler
