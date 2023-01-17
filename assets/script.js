@@ -58,7 +58,7 @@ async function getCityAPI() {
 // get the 5 day forecast weather data
 async function getWeather(lat,lon){
     
-      var forecastURL = "http://api.openweathermap.org/data/2.5/forecast?lat="+ lat +"&lon="+lon+ "&units=metric" +"&appid=" + apikey;
+      var forecastURL = "https://api.openweathermap.org/data/2.5/forecast?lat="+ lat +"&lon="+lon+ "&units=metric" +"&appid=" + apikey;
         fetch(forecastURL)
            .then(function (response) {
             return response.json();
