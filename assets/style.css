@@ -37,7 +37,7 @@ body{
  border-style: solid;
  border: 1px;
  height: 60%;
- background-color: aquamarine;
+ background-color: lightgray;
  margin-top: 20px ;
 }
 .weather{
@@ -49,7 +49,7 @@ body{
 
 .card-body-city{
   border: 2px;;
-  border-color: black;
+  border-color: darkgray;
   border-style: solid;
 
 }
@@ -64,6 +64,7 @@ body{
 }
 .card{
 margin: 10px;;
+font-size: 30px;
 }
 .card-body {
   background-color: navy;
@@ -82,4 +83,6 @@ button{
   background-color: #43AFFC;
   margin-left: 20px;
 }
+
+
 

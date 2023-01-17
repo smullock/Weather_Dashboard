@@ -30,4 +30,11 @@ THEN I am again presented with current and future conditions for that city
 ## Screenshot
 
 The following image shows the web application's appearance and functionality:
-![Alt text](../../../../../../C:/Users/Sarah%20Mullock.000/Desktop/bootcamp/Weather_Dashboard/assets/weather.PNG)
+
+
+![This shows the weather dashboard](./assets/weather.PNG)
+
+## Link to Website
+https://smullock.github.io/Weather_Dashboard/
+
+
